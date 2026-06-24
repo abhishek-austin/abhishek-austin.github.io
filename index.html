@@ -154,6 +154,10 @@ section{scroll-margin-top:84px}
 .form-note{font-family:var(--mono);font-size:.72rem;color:var(--paper-faint);margin-top:.6rem}
 .form-status{font-family:var(--mono);font-size:.86rem;color:var(--paper);}
 
+/* Modal-specific button styling to avoid green-on-white for Close/Cancel */
+.modal .btn-ghost{border-color:rgba(255,255,255,.06);color:var(--paper-dim);background:transparent;padding:.5rem .8rem;font-size:.9rem}
+.modal .btn-ghost:hover,.modal .btn-ghost:focus{border-color:rgba(255,255,255,.12);color:var(--paper);background:rgba(255,255,255,.02);transform:none}
+
 .foot{border-top:1px solid var(--line);padding:2.6rem 0;background:#060708}
 .foot-in{display:flex;justify-content:space-between;align-items:center;gap:1.2rem;flex-wrap:wrap}
 .foot-l{font-family:var(--serif);color:var(--paper-dim);font-size:.98rem}.foot-l b{color:var(--paper);font-weight:500}
