@@ -88,7 +88,7 @@ section{scroll-margin-top:84px}
 .tier-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:1.2rem;flex-wrap:wrap}
 .tier-n{font-family:var(--mono);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--teal)}
 .tier-t{font-family:var(--serif);font-size:1.4rem;font-weight:440;color:#f1f5f2}
-.tier-dur{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--paper-faint);margin-left:auto;border:1px solid var(--line);border-radius:30px;padding:.3rem .9rem}
+.tier-dur{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--paper-faint);margin-left:auto;border:1px solid var(--line);border-radius:30px;padding:.3rem .7rem}
 .eng{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
 .eng-item{background:var(--ink-2);padding:1.4rem 1.5rem;transition:background .3s}
 .eng-item:hover{background:var(--ink-3)}
@@ -140,6 +140,20 @@ section{scroll-margin-top:84px}
 .cta .sec-h{margin:0 auto}.cta .sec-p{margin:1.2rem auto 2.3rem}
 .cta-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
 
+/* Modal / form styles */
+.modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(2,4,6,.6);z-index:80}
+.modal.open{display:flex}
+.modal-box{background:var(--ink);border:1px solid var(--line);padding:1.6rem;border-radius:8px;max-width:520px;width:94%;box-shadow:0 10px 30px rgba(0,0,0,.6)}
+.modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:0.8rem}
+.modal h3{font-family:var(--serif);font-size:1.1rem;color:#f4f6f6;margin:0}
+.modal p{color:var(--paper-dim);font-size:.95rem;margin:0 0 0.8rem}
+.form-row{display:flex;flex-direction:column;gap:.4rem;margin-bottom:.9rem}
+.form-row input,.form-row textarea{background:transparent;border:1px solid var(--line-2);padding:.7rem .8rem;color:var(--paper);border-radius:5px;font-family:var(--sans);font-size:.95rem}
+.form-row textarea{min-height:120px;resize:vertical}
+.form-actions{display:flex;gap:.6rem;justify-content:flex-end;align-items:center}
+.form-note{font-family:var(--mono);font-size:.72rem;color:var(--paper-faint);margin-top:.6rem}
+.form-status{font-family:var(--mono);font-size:.86rem;color:var(--paper);}
+
 .foot{border-top:1px solid var(--line);padding:2.6rem 0;background:#060708}
 .foot-in{display:flex;justify-content:space-between;align-items:center;gap:1.2rem;flex-wrap:wrap}
 .foot-l{font-family:var(--serif);color:var(--paper-dim);font-size:.98rem}.foot-l b{color:var(--paper);font-weight:500}
@@ -169,7 +183,7 @@ section{scroll-margin-top:84px}
     <h1 class="h-title reveal d1">Know what to build next. <em>Build it right.</em></h1>
     <p class="h-sub reveal d2">ANB Solutions helps organizations turn repeatable work into products, scale what works, and put AI and automation exactly where it cuts engineering overhead.</p>
     <div class="h-actions reveal d3">
-      <a class="btn btn-primary" href="mailto:abhishek@theanbgroup.com?subject=ANB%20Solutions%20Working%20Session">Book a working session</a>
+      <button id="open-session" class="btn btn-primary" type="button">Book a working session</button>
       <a class="btn btn-ghost" href="#engagements">See how we help</a>
     </div>
     <div class="h-cred reveal d4">
@@ -229,10 +243,10 @@ section{scroll-margin-top:84px}
     <div class="tier reveal">
       <div class="tier-head"><span class="tier-n">Tier 01</span><span class="tier-t">Diagnose</span><span class="tier-dur">Weeks, not quarters</span></div>
       <div class="eng">
-        <div class="eng-item"><div class="eng-h">Productization Readiness Audit</div><p class="eng-p">Which of your repeatable services can become a product? We map delivery patterns, find the wedge, and recommend a prioritized MVP scope.</p></div>
+        <div class="eng-item"><div class="eng-h">Productization Readiness Audit</div><p class="eng-p">Which of your repeatable services can become a product? We map delivery patterns and find the wedge.</p></div>
         <div class="eng-item"><div class="eng-h">Scale Readiness Review (1&rarr;5)</div><p class="eng-p">Your product works for a few customers. We pressure-test architecture, data, and team for the next phase of growth.</p></div>
         <div class="eng-item"><div class="eng-h">Technical Due Diligence</div><p class="eng-p">Buy-side, sell-side, or investor-side assessment of architecture, team, security, and delivery risk.</p></div>
-        <div class="eng-item"><div class="eng-h">Scope &amp; Contract Review</div><p class="eng-p">A technical read of SOWs, MSAs, and RFP responses before you sign: scope creep, IP ownership, integrations, and risk.</p></div>
+        <div class="eng-item"><div class="eng-h">Scope &amp; Contract Review</div><p class="eng-p">A technical read of SOWs, MSAs, and RFP responses before you sign: scope creep, IP ownership, integrations, and costs.</p></div>
       </div>
     </div>
 
@@ -241,8 +255,8 @@ section{scroll-margin-top:84px}
       <div class="eng">
         <div class="eng-item"><div class="eng-h">Services-to-Product Roadmap</div><p class="eng-p">Turn your best delivery playbook into a product spec, an MVP scope, and a costed build plan your team can execute.</p></div>
         <div class="eng-item"><div class="eng-h">Product &amp; Platform Strategy</div><p class="eng-p">Position, package, and price the product, and define the architecture and integrations to support scale.</p></div>
-        <div class="eng-item"><div class="eng-h">DevOps &amp; Delivery Automation</div><p class="eng-p">Stand up the CI/CD, observability, and release practice that take a team from occasional releases to predictable delivery.</p></div>
-        <div class="eng-item"><div class="eng-h">AI &amp; Workflow Automation</div><p class="eng-p">From agentic QA to back-office workflows: build the automation and the MLOps foundation to run it in production.</p></div>
+        <div class="eng-item"><div class="eng-h">DevOps &amp; Delivery Automation</div><p class="eng-p">Stand up CI/CD, observability, and a release practice that supports multiple deploys per day.</p></div>
+        <div class="eng-item"><div class="eng-h">AI &amp; Workflow Automation</div><p class="eng-p">From agentic QA to back-office workflows: build automation and the MLOps foundation to run it in production.</p></div>
       </div>
     </div>
 
@@ -265,9 +279,9 @@ section{scroll-margin-top:84px}
       <h2 class="sec-h">Start small. <em>Prove value fast.</em> Scale the engagement.</h2>
     </div>
     <div class="steps">
-      <div class="step reveal"><div class="step-n">01 / Diagnose</div><h3 class="step-h">See clearly</h3><p class="step-p">A fixed-scope assessment that gives you an honest picture and a prioritized plan.</p></div>
-      <div class="step reveal d1"><div class="step-n">02 / Plan</div><h3 class="step-h">Agree the path</h3><p class="step-p">A roadmap your engineers and your leadership can both act on, with the trade-offs spelled out.</p></div>
-      <div class="step reveal d2"><div class="step-n">03 / Build &amp; Embed</div><h3 class="step-h">Make it stick</h3><p class="step-p">We help execute, or step in as embedded leadership, until the change is sustainable.</p></div>
+      <div class="step reveal"><div class="step-n">01 / Diagnose</div><h3 class="step-h">See clearly</h3><p class="step-p">A fixed-scope assessment that gives you an honest picture and a prioritized plan of work.</p></div>
+      <div class="step reveal d1"><div class="step-n">02 / Plan</div><h3 class="step-h">Agree the path</h3><p class="step-p">A roadmap your engineers and your leadership can both act on, with the tradeoffs and timelines made explicit.</p></div>
+      <div class="step reveal d2"><div class="step-n">03 / Build &amp; Embed</div><h3 class="step-h">Make it stick</h3><p class="step-p">We help execute, or step in as embedded leadership, until the new approach runs independently.</p></div>
     </div>
   </div>
 </section>
@@ -285,10 +299,10 @@ section{scroll-margin-top:84px}
         <span class="ph"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>
       </div>
       <div class="reveal d1">
-        <div class="lead-role">Founder &amp; Principal</div>
+        <div class="lead-role">Principal</div>
         <div class="lead-name">Abhishek Balakrishnan</div>
         <div class="lead-bio">
-          <p>For nearly a decade, Abhishek was <b>CTO and an owner of ANB Systems</b>, where he grew the engineering organization to <b>more than 200 people</b> and scaled the platform to serve enterprise customers globally.</p>
+          <p>For nearly a decade, Abhishek was <b>CTO and an owner of ANB Systems</b>, where he grew the engineering organization to <b>more than 200 people</b> and scaled the platform to serve enterprise customers.</p>
           <p>He built the DevOps practice behind a <b>99.99%-uptime, Multi-region product</b> with mature disaster recovery and dozens of deployments a day, leading large consolidations and platform migrations, culminating in the company's acquisition by DNV.</p>
         </div>
         <ul class="lead-facts">
@@ -333,7 +347,7 @@ section{scroll-margin-top:84px}
           <img src="images/future-digital-twin.jpg" alt="Future Digital Twin & AI 2026" onerror="this.style.display='none'">
           <span class="ph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.8"/></svg></span>
         </div>
-        <div class="talk-body"><span class="talk-yr">2026 &middot; Houston</span><h3 class="talk-h">Future Digital Twin &amp; AI</h3><p class="talk-p">Where digital twins meet agentic AI in industrial settings.</p></div>
+        <div class="talk-body"><span class="talk-yr">2026 &middot; Houston</span><h3 class="talk-h">Future Digital Twin &amp; AI</h3><p class="talk-p">Where digital twins meet agentic AI in industrial applications.</p></div>
       </div>
       <div class="talk reveal d2">
         <div class="talk-media">
@@ -359,13 +373,44 @@ section{scroll-margin-top:84px}
   <div class="wrap">
     <span class="eyebrow reveal" style="justify-content:center">Let's talk</span>
     <h2 class="sec-h reveal d1">Where are you stuck?</h2>
-    <p class="sec-p reveal d2">Start with a free* working session. Whether you are weighing a productization bet, prepping for diligence, or trying to get AI past the demo, a short working session gives you a clear next step.</p>
+    <p class="sec-p reveal d2">Start with a free* working session. Whether you are weighing a productization bet, prepping for diligence, or trying to get AI past the demo, a short working session gives clarity and a plan.</p>
     <div class="cta-actions reveal d3">
-      <a class="btn btn-primary" href="mailto:abhishek@theanbgroup.com?subject=ANB%20Solutions%20inquiry">Email ANB Solutions</a>
+      <button id="open-session-2" class="btn btn-primary" type="button">Book a working session</button>
       <a class="btn btn-ghost" href="https://www.linkedin.com/in/a-balakrishnan/" target="_blank" rel="noopener">Connect on LinkedIn &#8599;</a>
     </div>
   </div>
 </section>
+
+<!-- Inline modal form (hidden by default) -->
+<div id="session-modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="session-title">
+  <div class="modal-box" role="document">
+    <div class="modal-head">
+      <h3 id="session-title">Book a working session</h3>
+      <button id="close-modal" aria-label="Close" class="btn btn-ghost" type="button">Close</button>
+    </div>
+    <p>Send a short note and we'll follow up to schedule. This sends an email to the owner — no client required.</p>
+    <form id="session-form">
+      <div class="form-row">
+        <label class="sr-only" for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+      </div>
+      <div class="form-row">
+        <label class="sr-only" for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Your email" required>
+      </div>
+      <div class="form-row">
+        <label class="sr-only" for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Short note — what would you like help with?" required></textarea>
+      </div>
+      <div class="form-actions">
+        <div class="form-status" id="form-status" aria-live="polite"></div>
+        <button class="btn btn-ghost" type="button" id="cancel-btn">Cancel</button>
+        <button class="btn btn-primary" type="submit">Send</button>
+      </div>
+      <div class="form-note">Privacy: we only use this to follow up about your inquiry.</div>
+    </form>
+  </div>
+</div>
 
 <footer class="foot">
   <div class="wrap">
@@ -393,6 +438,77 @@ section{scroll-margin-top:84px}
     els.forEach(function(e){ io.observe(e); });
     requestAnimationFrame(function(){ document.querySelectorAll('.hero .reveal').forEach(function(e){e.classList.add('in')}); });
   }catch(err){ document.querySelectorAll('.reveal').forEach(function(e){e.classList.add('in')}); }
+})();
+
+// Inline form handling
+(function(){
+  var openBtns = [document.getElementById('open-session'), document.getElementById('open-session-2')];
+  var modal = document.getElementById('session-modal');
+  var closeBtn = document.getElementById('close-modal');
+  var cancelBtn = document.getElementById('cancel-btn');
+  var form = document.getElementById('session-form');
+  var statusEl = document.getElementById('form-status');
+
+  // Configure your Formspree endpoint here. Example: 'https://formspree.io/f/mayvlkqj'
+  // Leave as '' to keep mailto fallback behavior.
+  var FORM_ENDPOINT = '';
+
+  function openModal(){
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden','false');
+    document.getElementById('name').focus();
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden','true');
+    statusEl.textContent = '';
+    form.reset();
+    document.body.style.overflow = '';
+  }
+
+  openBtns.forEach(function(b){ if(b) b.addEventListener('click', openModal); });
+  closeBtn.addEventListener('click', closeModal);
+  cancelBtn.addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){ if(e.target === modal) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    statusEl.textContent = 'Sending…';
+
+    var data = new FormData(form);
+
+    if(FORM_ENDPOINT && FORM_ENDPOINT.indexOf('formspree') !== -1){
+      fetch(FORM_ENDPOINT, { method: 'POST', body: data, headers: { 'Accept': 'application/json' } })
+        .then(function(res){
+          if(res.ok){ statusEl.textContent = 'Thanks — we received your note and will follow up soon.'; setTimeout(closeModal,1500); }
+          else{ return res.json().then(function(j){ throw j; }); }
+        })
+        .catch(function(err){
+          console.error(err);
+          statusEl.textContent = 'There was a problem sending your message. Please try again or email directly.';
+        });
+      return;
+    }
+
+    // If no endpoint is configured, fall back to opening the user's email client as a last resort.
+    // We build a mailto: link with the message content so the user can send it if they prefer.
+    var name = data.get('name') || '';
+    var email = data.get('email') || '';
+    var message = data.get('message') || '';
+
+    if(!FORM_ENDPOINT){
+      // gentle fallback: open mailto so nothing is lost
+      var subject = encodeURIComponent('ANB Solutions — Working session request');
+      var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
+      // open mailto in new tab (many browsers will open email client)
+      window.location.href = 'mailto:abhishek@theanbgroup.com?subject=' + subject + '&body=' + body;
+      statusEl.textContent = 'Opening your email client…';
+      return;
+    }
+
+  });
 })();
 </script>
 </body>
