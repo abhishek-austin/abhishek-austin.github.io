@@ -89,7 +89,9 @@ section{scroll-margin-top:84px}
 .tier-n{font-family:var(--mono);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--teal)}
 .tier-t{font-family:var(--serif);font-size:1.4rem;font-weight:440;color:#f1f5f2}
 .tier-dur{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--paper-faint);margin-left:auto;border:1px solid var(--line);border-radius:30px;padding:.3rem .7rem}
-.eng{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+
+/* Grid for engagement items: explicit per-tier columns to control layout */
+.eng{gap:1px;background:var(--line);border:1px solid var(--line);display:grid}
 .eng-item{background:var(--ink-2);padding:1.4rem 1.5rem;transition:background .3s}
 .eng-item:hover{background:var(--ink-3)}
 .eng-h{font-family:var(--sans);font-weight:600;font-size:1.02rem;color:#f1f5f2;margin-bottom:.4rem;display:flex;align-items:center;gap:.55rem}
@@ -97,6 +99,20 @@ section{scroll-margin-top:84px}
 .eng-p{color:var(--paper-dim);font-weight:300;font-size:.9rem;padding-left:1.1rem}
 .eng-note{margin-top:1.6rem;font-family:var(--mono);font-size:.68rem;letter-spacing:.04em;color:var(--paper-faint)}
 .eng-note b{color:var(--teal-soft);font-weight:400}
+
+/* Default: 4 columns for tiers that need 4 boxes */
+.eng-4{grid-template-columns:repeat(4,1fr)}
+/* 2 columns for embed tier */
+.eng-2{grid-template-columns:repeat(2,1fr)}
+
+/* Responsive fallbacks */
+@media (max-width:1100px){
+  .eng-4{grid-template-columns:repeat(2,1fr)}
+  .eng-2{grid-template-columns:repeat(1,1fr)}
+}
+@media (max-width:600px){
+  .eng-4,.eng-2{grid-template-columns:1fr}
+}
 
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1rem,3vw,2.4rem)}
 .step{padding-top:1.6rem;border-top:2px solid var(--teal)}
@@ -246,7 +262,7 @@ section{scroll-margin-top:84px}
 
     <div class="tier reveal">
       <div class="tier-head"><span class="tier-n">Tier 01</span><span class="tier-t">Diagnose</span><span class="tier-dur">Weeks, not quarters</span></div>
-      <div class="eng">
+      <div class="eng eng-4">
         <div class="eng-item"><div class="eng-h">Productization Readiness Audit</div><p class="eng-p">Which of your repeatable services can become a product? We map delivery patterns and find the wedge.</p></div>
         <div class="eng-item"><div class="eng-h">Scale Readiness Review (1&rarr;5)</div><p class="eng-p">Your product works for a few customers. We pressure-test architecture, data, and team for the next phase of growth.</p></div>
         <div class="eng-item"><div class="eng-h">Technical Due Diligence</div><p class="eng-p">Buy-side, sell-side, or investor-side assessment of architecture, team, security, and delivery risk.</p></div>
@@ -256,7 +272,7 @@ section{scroll-margin-top:84px}
 
     <div class="tier reveal">
       <div class="tier-head"><span class="tier-n">Tier 02</span><span class="tier-t">Build</span><span class="tier-dur">Weeks to months</span></div>
-      <div class="eng">
+      <div class="eng eng-4">
         <div class="eng-item"><div class="eng-h">Services-to-Product Roadmap</div><p class="eng-p">Turn your best delivery playbook into a product spec, an MVP scope, and a costed build plan your team can execute.</p></div>
         <div class="eng-item"><div class="eng-h">Product &amp; Platform Strategy</div><p class="eng-p">Position, package, and price the product, and define the architecture and integrations to support scale.</p></div>
         <div class="eng-item"><div class="eng-h">DevOps &amp; Delivery Automation</div><p class="eng-p">Stand up CI/CD, observability, and a release practice that supports multiple deploys per day.</p></div>
@@ -266,7 +282,7 @@ section{scroll-margin-top:84px}
 
     <div class="tier reveal">
       <div class="tier-head"><span class="tier-n">Tier 03</span><span class="tier-t">Embed</span><span class="tier-dur">Ongoing retainer</span></div>
-      <div class="eng">
+      <div class="eng eng-2">
         <div class="eng-item"><div class="eng-h">Fractional / Interim CTO</div><p class="eng-p">Embedded technical leadership: owning the roadmap, architecture decisions, hiring, and the team's operating cadence.</p></div>
         <div class="eng-item"><div class="eng-h">Engineering Org &amp; Hiring Plan</div><p class="eng-p">Design the team structure, roles, and leadership cadence that scale a group from scrappy to dependable.</p></div>
       </div>
@@ -392,7 +408,7 @@ section{scroll-margin-top:84px}
       <h3 id="session-title">Book a working session</h3>
       <button id="close-modal" aria-label="Close" class="btn btn-ghost" type="button">Close</button>
     </div>
-    <p>Send a short note and we'll follow up to schedule. This sends an email to the owner — no client required.</p>
+    <p>Send a short note and we'll follow up to schedule — we'll email you directly.</p>
     <form id="session-form">
       <div class="form-row">
         <label class="sr-only" for="name">Name</label>
