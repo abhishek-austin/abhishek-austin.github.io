@@ -10,6 +10,8 @@
 <meta property="og:title" content="ANB Solutions — Technology leadership for the journey from one to five">
 <meta property="og:description" content="Turn services into products. Scale what works. Put AI and automation where it pays off.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://abhishek-austin.github.io/">
+<meta property="og:image" content="https://abhishek-austin.github.io/images/abhishek.jpg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,6 +32,7 @@ body{background:var(--ink);color:var(--paper);font-family:var(--sans);line-heigh
 a{color:inherit;text-decoration:none}
 ::selection{background:var(--teal);color:var(--ink)}
 section{scroll-margin-top:84px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
 .js .reveal{opacity:0;transform:translateY(22px)}
 .js .reveal.in{opacity:1;transform:none;transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
@@ -314,8 +317,7 @@ section{scroll-margin-top:84px}
     </div>
     <div class="lead">
       <div class="lead-photo reveal">
-        <!-- TODO: drop your headshot at images/abhishek.jpg -->
-        <img src="images/abhishek.jpg" alt="Abhishek Balakrishnan" onerror="this.style.display='none'">
+        <img src="images/abhishek.jpg" alt="Abhishek Balakrishnan" width="800" height="1000" loading="lazy" decoding="async">
         <span class="ph"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"/></svg></span>
       </div>
       <div class="reveal d1">
@@ -355,32 +357,24 @@ section{scroll-margin-top:84px}
     <div class="talks">
       <div class="talk reveal">
         <div class="talk-media">
-          <!-- TODO: images/energy-thought-summit.jpg -->
-          <img src="images/energy-thought-summit.jpg" alt="Energy Thought Summit keynote" onerror="this.style.display='none'">
           <span class="ph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.8"/></svg></span>
         </div>
         <div class="talk-body"><span class="talk-yr">2026 &middot; San Antonio</span><h3 class="talk-h">Energy Thought Summit</h3><p class="talk-p">Keynote on putting AI to work at enterprise scale.</p></div>
       </div>
       <div class="talk reveal d1">
         <div class="talk-media">
-          <!-- TODO: images/future-digital-twin.jpg -->
-          <img src="images/future-digital-twin.jpg" alt="Future Digital Twin & AI 2026" onerror="this.style.display='none'">
           <span class="ph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.8"/></svg></span>
         </div>
         <div class="talk-body"><span class="talk-yr">2026 &middot; Houston</span><h3 class="talk-h">Future Digital Twin &amp; AI</h3><p class="talk-p">Where digital twins meet agentic AI in industrial applications.</p></div>
       </div>
       <div class="talk reveal d2">
         <div class="talk-media">
-          <!-- TODO: images/energize-2026.jpg -->
-          <img src="images/energize-2026.jpg" alt="Energize 2026 keynote" onerror="this.style.display='none'">
           <span class="ph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.8"/></svg></span>
         </div>
         <div class="talk-body"><span class="talk-yr">2026 &middot; Chennai &amp; Houston</span><h3 class="talk-h">Energize: AI Agents</h3><p class="talk-p">Opening keynote on practical AI agents for enterprise workflows.</p></div>
       </div>
       <div class="talk reveal d3">
         <div class="talk-media">
-          <!-- TODO: images/duke-nicholas.jpg -->
-          <img src="images/duke-nicholas.jpg" alt="Duke Nicholas Institute talk" onerror="this.style.display='none'">
           <span class="ph"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.8"/></svg></span>
         </div>
         <div class="talk-body"><span class="talk-yr">Duke University</span><h3 class="talk-h">Nicholas Institute</h3><p class="talk-p">Power Lunch speaker on big data and distributed computing.</p></div>
@@ -402,7 +396,7 @@ section{scroll-margin-top:84px}
 </section>
 
 <!-- Inline modal form (hidden by default) -->
-<div id="session-modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="session-title">
+<div id="session-modal" class="modal" aria-hidden="true" aria-modal="true" role="dialog" aria-labelledby="session-title">
   <div class="modal-box" role="document">
     <div class="modal-head">
       <h3 id="session-title">Book a working session</h3>
