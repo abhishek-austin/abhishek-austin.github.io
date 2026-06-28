@@ -16,6 +16,9 @@ organization: ANB Solutions, Inc.
 # inside content="..." of the meta tag it gives you). Leave blank until then.
 google_site_verification: ""
 
+# Google Analytics 4 Measurement ID. Leave blank to disable.
+google_analytics: "G-EDB64XD0N4"
+
 # ── Build ────────────────────────────────────────────────────────────
 # We ship our own layouts, so no gem theme is needed.
 markdown: kramdown
