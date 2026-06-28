@@ -73,6 +73,8 @@ publishes it. Pushing to the configured Pages branch triggers a rebuild.
 - `post-template.md` - Copy this to start a new post.
 - `_config.yml` - Jekyll configuration (site metadata, plugins, SEO settings).
 - `robots.txt` - Points crawlers at the sitemap.
+- `assets/brand/` - "Escape Velocity" newsletter logo: SVG mark + favicon,
+  plus rendered PNGs (favicon, avatar/newsletter logo, lockup, cover banner).
 - `images/` - Web-ready image assets.
 - `sitemap.xml`, `feed.xml` - Generated at build time; not committed.
 

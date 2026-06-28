@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Escape Velocity">
+  <defs>
+    <linearGradient id="ev" x1="0" y1="64" x2="64" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f3b32"/>
+      <stop offset=".5" stop-color="#36c6a0"/>
+      <stop offset="1" stop-color="#7ee3c6"/>
+    </linearGradient>
+  </defs>
+  <line x1="6" y1="46" x2="40" y2="46" stroke="#36c6a0" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round"/>
+  <path d="M8 52 C 24 52 30 44 38 30 S 50 11 57 7" stroke="url(#ev)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="57" cy="7" r="4.4" fill="#7ee3c6"/>
+</svg>
