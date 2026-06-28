@@ -1,0 +1,35 @@
+# ── Site ─────────────────────────────────────────────────────────────
+title: ANB Solutions
+tagline: Fractional CTO · Enterprise AI & Automation · Product Strategy
+description: >-
+  Writing from ANB Solutions on technology leadership, turning services into
+  products, and putting AI and automation to work at enterprise scale.
+url: https://abhishek-austin.github.io
+author: Abhishek Balakrishnan
+email: abhishek@theanbgroup.com
+linkedin: https://www.linkedin.com/in/a-balakrishnan/
+
+# ── Build ────────────────────────────────────────────────────────────
+# We ship our own layouts, so no gem theme is needed.
+markdown: kramdown
+permalink: /blog/:title/
+
+# Default the front matter for posts so the EA only has to fill in a few
+# fields. Anything under _posts/ uses the post layout automatically.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# index.html has no front matter, so Jekyll copies it through untouched.
+# These files/dirs are never part of the built site.
+exclude:
+  - README.md
+  - PUBLISHING.md
+  - post-template.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .ccr

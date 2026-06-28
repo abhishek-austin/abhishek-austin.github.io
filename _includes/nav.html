@@ -1,0 +1,12 @@
+<nav class="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="{{ '/' | relative_url }}"><span class="mark">ANB</span><span>ANB&nbsp;<b>Solutions</b></span></a>
+    <div class="nav-links">
+      <a href="{{ '/#capabilities' | relative_url }}">Capabilities</a>
+      <a href="{{ '/#engagements' | relative_url }}">Engagements</a>
+      <a class="nav-writing" href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' %} aria-current="page"{% endif %}>Writing</a>
+      <a href="{{ '/#leadership' | relative_url }}">Leadership</a>
+      <a class="nav-cta" href="{{ '/#contact' | relative_url }}">Get in touch</a>
+    </div>
+  </div>
+</nav>
