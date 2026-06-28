@@ -52,7 +52,10 @@ section{scroll-margin-top:84px}
 .nav-links a{color:var(--paper-dim);transition:color .2s}.nav-links a:hover{color:var(--teal-soft)}
 .nav-cta{padding:.55rem 1.1rem;border:1px solid var(--line-2);border-radius:3px;color:var(--paper)!important}
 .nav-cta:hover{border-color:var(--teal);color:var(--teal-soft)!important}
-@media(max-width:860px){.nav-links a:not(.nav-cta){display:none}}
+.nav-social{display:inline-flex;align-items:center;color:var(--paper-dim);transition:color .2s}
+.nav-social:hover{color:var(--teal-soft)}
+.nav-social svg{width:17px;height:17px;display:block}
+@media(max-width:860px){.nav-links a:not(.nav-cta):not(.nav-social){display:none}}
 
 .hero{position:relative;padding:clamp(4.5rem,11vw,9rem) 0 clamp(3.5rem,7vw,6rem);overflow:hidden}
 .hero::before{content:'';position:absolute;inset:0;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(54,198,160,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(54,198,160,.05) 1px,transparent 1px)}
@@ -196,6 +199,9 @@ section{scroll-margin-top:84px}
       <a href="#approach">Approach</a>
       <a href="#leadership">Leadership</a>
       <a href="/blog/">Writing</a>
+      <a class="nav-social" href="https://www.linkedin.com/in/a-balakrishnan/" target="_blank" rel="noopener" aria-label="Abhishek on LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+      </a>
       <a class="nav-cta" href="#contact">Get in touch</a>
     </div>
   </div>
