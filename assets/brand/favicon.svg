@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Escape Velocity">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#36c6a0"/>
+      <stop offset="1" stop-color="#0f3b32"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#tile)"/>
+  <polyline points="14,49 25,40 36,44 47,27 55,15" fill="none" stroke="#04130f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".85"/>
+  <circle cx="14" cy="49" r="3" fill="#04130f"/>
+  <circle cx="25" cy="40" r="3" fill="#04130f"/>
+  <circle cx="36" cy="44" r="3" fill="#04130f"/>
+  <circle cx="47" cy="27" r="3.2" fill="#04130f"/>
+  <circle cx="55" cy="15" r="4" fill="#04130f"/>
+</svg>
