@@ -113,6 +113,7 @@ a{color:inherit;text-decoration:none}
 .li-cta b{color:var(--paper);font-weight:500}
 .li-inline{color:var(--teal-soft);font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;display:inline-flex;align-items:center;gap:.4rem}
 .li-inline:hover{color:var(--teal)}
+.li-cta--newsletter{margin-top:1rem;background:transparent}
 
 /* ── Footer ── */
 .foot{border-top:1px solid var(--line);padding:2.6rem 0;background:#060708}
