@@ -24,7 +24,7 @@ The bigger shift is what counts as a number now. Forget spreadsheets and paper d
 
 ## Where I think this goes
 
-**A restaurant.** Which dishes actually make money and which just feel popular. Where food is quietly going to waste. What to prep more of, and what to stop making.
+**A restaurant.** Which dishes still make money now that ingredient costs have shifted. Where the real waste is coming from. Which supplier increase is worth a phone call, and which dish to push this week because of it.
 
 **A cleaning, pool, or landscaping business.** This one is really about customer service. After every visit, the customer gets an instant report: what was done, who did it, photos as proof. Issues the crew spotted get flagged proactively, before anyone has to ask. The follow-through that used to eat an afternoon of office time now writes itself.
 
