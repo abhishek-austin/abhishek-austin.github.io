@@ -24,9 +24,9 @@ The bigger shift is what counts as a number now. Forget spreadsheets and paper d
 
 ## Where I think this goes
 
-**A restaurant.** Ingredient-cost drift against menu price. Contribution margin per dish, beyond raw sales volume. Waste patterns by day and prep window. Which items earn their place and which ones ride on habit.
+**A restaurant.** Which dishes actually make money and which just feel popular. Where food is quietly going to waste. What to prep more of, and what to stop making.
 
-**A cleaning, pool, or landscaping business.** Which jobs cleared a profit after drive time and supplies. Route density, and where the schedule leaks unbilled hours. Quote-to-win rate by job type. The service you assume is your bread and butter, tested against the numbers.
+**A cleaning, pool, or landscaping business.** This one is really about customer service. After every visit, the customer gets an instant report: what was done, who did it, photos as proof. Issues the crew spotted get flagged proactively, before anyone has to ask. The follow-through that used to eat an afternoon of office time now writes itself.
 
 **Personalized consulting or coaching.** This is where aural and spatial data earns its keep. The cadence and hesitation in a client's voice, the posture and movement a camera catches, the through-lines across a dozen sessions. Read together, they let you tailor each engagement to the individual in front of you rather than the average client in your head.
 
