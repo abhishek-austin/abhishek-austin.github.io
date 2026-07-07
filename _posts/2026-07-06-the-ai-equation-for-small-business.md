@@ -1,18 +1,14 @@
 ---
-layout: post
-permalink: /preview/the-ai-equation-for-small-business/
 title: "The AI Equation for Small Business"
-subtitle: "Measurement used to be the most expensive thing a small business could buy. AI made it cheap enough to run every week, and that changes what an owner-operator can do."
+subtitle: "Measurement used to be expensive for small businesses to invest in. AI made it cheap and easy enough to run all the time, and that changes what an owner-operator can do."
 date: 2026-07-06
 tags: [AI, Mindset]
 excerpt: "The oldest rule in management is 'what gets measured improves.' Small businesses could never afford the measuring. AI changed the math. Here's the equation."
-noindex: true
-sitemap: false
 ---
 
-The oldest rule in management is that what gets measured improves. Every owner-operator knows it. Almost none of them run their business by it.
+The oldest rule in management is that what gets measured improves. Every owner-operator knows it. Almost none of them actually run their business that way.
 
-They don't run by it because measurement was expensive. It took analysts, software budgets, clean data, and hours that don't exist when you're the one unlocking the door in the morning. Big companies bought measurement by the department. Small businesses ran on instinct and a spreadsheet, and most still do.
+They don't, because measurement was expensive. It took analysts, software budgets, clean data, and hours that don't exist when you're the one unlocking the door in the morning. Big companies bought measurement by the department. Small businesses ran on instinct and a spreadsheet, and most still do.
 
 AI changed the math. The marginal cost of analyzing the information you already produce has collapsed, cheap enough that measurement becomes a weekly habit instead of an annual project. Some businesses have already noticed.
 
@@ -23,6 +19,8 @@ It comes down to a simple equation: **measure more, learn faster, decide better.
 Two things. First, depth. AI can reach further into your operation than a spreadsheet ever let you: raw material costs, sourcing times, lead times, the second and third-order patterns that were always buried too deep in the stack to dig out by hand. The burden of producing clean, organized data is lifted, so you can ask a hard question on a Tuesday and have an answer by the afternoon.
 
 Second, and bigger, is what counts as a number now. Forget spreadsheets and paper documents. Video and audio became measurable. For coaching businesses (sports, music, tutoring), the raw material of the craft was never data before. A golf swing, a violin scale, a student working through a problem: you could watch it, but capturing it at scale was out of reach. Now every lesson can produce a record: what was covered, what improved, what to drill next. Technique gets flagged from footage. Progress gets tracked per student, automatically, instead of living in the coach's memory. This is a co-pilot for the coach, and curated video breakdowns are a premium product parents and students will pay for, built from footage you were already capturing on a phone.
+
+![The small-business loop: measure more, learn faster, decide better, then repeat](/assets/images/ai-equation-loop.png)
 
 ## Where I think this goes
 
