@@ -1,7 +1,7 @@
 ---
 title: "The AI Equation for Small Business"
 subtitle: "Measurement used to be expensive for small businesses to invest in. AI made it cheap and easy enough to run all the time, and that changes what an owner-operator can do."
-date: 2026-07-06
+date: 2026-07-07
 tags: [AI, Mindset]
 excerpt: "The oldest rule in management is 'what gets measured improves.' Small businesses could never afford the measuring. AI changed the math. Here's the equation."
 ---
