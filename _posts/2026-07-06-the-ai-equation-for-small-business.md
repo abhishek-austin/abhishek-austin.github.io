@@ -25,10 +25,10 @@ Second, and bigger, is what counts as a number now. Forget spreadsheets and pape
 
 ## Where I think this goes
 
-**A restaurant.** Of forty menu items, which three slipped underwater when ingredient costs moved? Where the real waste is coming from. Which supplier increase is worth a phone call, and which dish to push this week because of it.
-
 ![Overhead plate with a per-dish margin gauge](/assets/images/restaurant-margin.png)
 *Which dishes actually earn their place, measured by the margin on each.*
+
+**A restaurant.** Of forty menu items, which three slipped underwater when ingredient costs moved? Where the real waste is coming from. Which supplier increase is worth a phone call, and which dish to push this week because of it.
 
 **A cleaning, pool, or landscaping business.** This one is really about customer service. After every visit, the customer gets an instant report: what was done, who did it, photos as proof. Issues the crew spotted get flagged before anyone has to ask. Honestly, most businesses never did any of this. It was too much work for a busy crew, so the follow-through simply never happened, even though skipping it is bad customer service. Now it writes itself.
 
