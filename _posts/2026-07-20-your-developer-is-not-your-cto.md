@@ -3,6 +3,7 @@ title: "Your Developer Is Not Your CTO: Why Startups Need High-Quality Advisors"
 subtitle: "In the age of AI, founders are drowning in options. What they are missing is someone thinking above the buttons."
 date: 2026-07-20
 tags: [Mindset, Products]
+linkedin: https://www.linkedin.com/pulse/your-developer-cto-why-startups-need-high-quality-balakrishnan-rqode
 image: /assets/images/dev-not-cto-cover.png
 excerpt: "Hiring a developer without a technology strategy leads to rework and slipping milestones. A fractional CTO advisor is the thinker who asks the five-year questions."
 ---
