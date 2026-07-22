@@ -11,13 +11,13 @@ excerpt: "Hiring a developer without a technology strategy leads to rework and s
 
 Lately I've been advising a few startups on their technology and operations. What I keep finding is that, even in the age of AI, business owners are weighed down by options. They struggle to stand up a lean stack or an agile process while protecting their core revenue priorities.
 
-It shows up at every level. At its most basic, I have seen founders trust a developer through months of delays, only to find the code was barely being checked in, if at all. Nothing consistent, nothing another engineer could pick up tomorrow. That alone can cripple a launch and force a painful scramble to move faster later. More serious founders avoid that trap, but the same gap still catches them: no one above the developer is asking whether today's shortcuts survive next year.
+It shows up at every level. At its most basic, in the past few weeks, I have seen a founder trust a developer through months of delays, only to find the code was barely being checked in, if at all. Nothing consistent, nothing another engineer could pick up tomorrow. That alone crippled a launch and forced a painful scramble to meet new dates. More serious founders are beyond this, but a similar gap still catches them: no one above the developer is asking whether today's shortcuts survive next year.
 
 Hiring developers or buying software vendors without a technology strategy leads to waste, rework, and milestones that keep slipping. For most of these businesses, a full-time CTO makes no sense. This is exactly where a fractional or short-term CTO advisor becomes paramount.
 
 You are not just looking for someone who can wield AI tools and ship you an MVP. You need someone thinking above the buttons, asking the hard questions about scale, not for tomorrow but for next year and five years out. They give you direction on the decisions that compound:
 
-- whether to instrument product analytics now, and how deeply, so a year from now you can actually answer which features drive retention
+- whether to instrument product analytics now, and how deeply, so a year from now you can actually answer if you are moving in the right direction
 - how you stay compliant on security and privacy, with the groundwork done before your first enterprise buyer's security team asks, not after it stalls the deal
 - how you harmonize your stack, including the tooling for automated code delivery, so shipping is routine instead of a manual, nerve-racking event
 - where to automate, internally and externally alike, not one or the other, and where each tool or process adds friction for your team or slows your product's path to customers
