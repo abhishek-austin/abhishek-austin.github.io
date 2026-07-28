@@ -25,4 +25,6 @@ If you're running an organization, audit yourself against these three. AI can no
 
 Let your mission and your systems move as one. Neither should burden the other, and neither should lag behind.
 
+![Mission and systems rising in lockstep to a shared point](/assets/images/be-organized-lockstep.png)
+
 *This article was drafted with Wispr Flow.*
