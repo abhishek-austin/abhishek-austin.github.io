@@ -19,6 +19,8 @@ There is a better path now. With Claude and GitHub Pages, the only thing you act
 
 Here is how it works, and what you need to do it yourself.
 
+![The old way of building a site versus the new way with Claude and GitHub](/assets/images/guide-old-vs-new.png)
+
 ## The old stack, and what it costs
 
 Before I get to the new workflow, it helps to see what you are leaving behind.
