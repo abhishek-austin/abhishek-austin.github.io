@@ -73,5 +73,3 @@ None of these are blockers, but they are worth knowing going in.
 If you have been putting off a website because the hosting fees and the page builders felt like more trouble than they were worth, this removes both. You pay for a domain, you describe what you want, and the rest is free.
 
 If you run a small business or a non-profit and want help getting this going, reach out. I am happy to point you in the right direction.
-
-*This article was drafted with Wispr Flow.*
