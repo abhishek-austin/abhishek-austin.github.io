@@ -2,13 +2,10 @@
 layout: post
 title: "Build Your Website with Claude and GitHub, Not WordPress"
 subtitle: "A small business or non-profit can stand up a real, professional website for the price of a domain name. No hosting bill, no page builder, no monthly plan. Here is the exact workflow."
-date: 2026-08-12
+date: 2026-08-13
 tags: [Guide, AI, Small Business]
 image: /assets/images/guide-cover.png
-permalink: /preview/build-your-website-with-claude-and-github/
-noindex: true
-sitemap: false
-excerpt: "You do not need WordPress, Bluehost, or a $500 hosting plan to have a great website. With Claude and GitHub Pages, the only thing you pay for is the domain. Here is the workflow, step by step."
+excerpt: "You do not need WordPress, Bluehost, or a hosting plan to have a great website. With Claude and GitHub Pages, the only thing you pay for is the domain. Here is the workflow, step by step."
 ---
 
 ![Build your site with Claude and GitHub](/assets/images/guide-cover.png)
