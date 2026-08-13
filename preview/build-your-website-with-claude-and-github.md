@@ -59,6 +59,8 @@ This is the part that replaces the page builder. You are going to talk to Claude
 
 That is the whole loop. Most of the work is deciding what you want to say, which was always the hard part anyway.
 
+Picture this. You are sitting at a coffee shop with a colleague and just your phone, and the two of you decide to greenlight a new event announcement, a fresh blog post, or a new team bio for your About page. A single prompt to Claude kicks off the entire workflow, and a few minutes later your website is updated and deployed.
+
 ## A few caveats
 
 None of these are blockers, but they are worth knowing going in.
