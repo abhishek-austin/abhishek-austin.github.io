@@ -12,13 +12,13 @@
   gtag('js', new Date());
   gtag('config', 'G-EDB64XD0N4');
 </script>
-<title>ANB Solutions — Fractional CTO: AI, custom reporting, architecture, SOC 2 & CI/CD</title>
+<title>ANB Solutions · Fractional CTO: AI, custom reporting, architecture, SOC 2 & CI/CD</title>
 <meta name="description" content="A fractional CTO for the technical calls that matter: the AI worth building, architecture that scales, and SOC 2 & CI/CD readiness. A senior answer and a plan, without a full-time hire.">
 <meta name="theme-color" content="#0a0b0d">
 <link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
-<meta property="og:title" content="ANB Solutions — A fractional CTO for the calls that matter">
+<meta property="og:title" content="ANB Solutions · A fractional CTO for the calls that matter">
 <meta property="og:description" content="The AI worth building, an architecture that scales, and SOC 2 & CI/CD readiness. A senior technical answer and a concrete plan, without a full-time hire.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://solutions.theanbgroup.com/">
@@ -26,7 +26,7 @@
 <link rel="canonical" href="https://solutions.theanbgroup.com/">
 
 <!-- RSS feed for the Writing section -->
-<link rel="alternate" type="application/atom+xml" title="Escape Velocity — the newsletter" href="/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Escape Velocity · the newsletter" href="/feed.xml">
 
 <!-- Google Search Console: if verifying by meta tag, paste the tag here. -->
 
@@ -351,7 +351,7 @@ section{scroll-margin-top:84px}
       </div>
       <div class="form-row">
         <label class="sr-only" for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Short note — what would you like help with?" required></textarea>
+        <textarea id="message" name="message" placeholder="Short note. What would you like help with?" required></textarea>
       </div>
       <div class="form-actions">
         <div class="form-status" id="form-status" aria-live="polite"></div>
@@ -435,7 +435,7 @@ section{scroll-margin-top:84px}
     if(FORM_ENDPOINT && FORM_ENDPOINT.indexOf('formspree') !== -1){
       fetch(FORM_ENDPOINT, { method: 'POST', body: data, headers: { 'Accept': 'application/json' } })
         .then(function(res){
-          if(res.ok){ statusEl.textContent = 'Thanks — we received your note and will follow up soon.'; setTimeout(closeModal,1500); }
+          if(res.ok){ statusEl.textContent = 'Thanks. We received your note and will follow up soon.'; setTimeout(closeModal,1500); }
           else{ return res.json().then(function(j){ throw j; }); }
         })
         .catch(function(err){
@@ -453,7 +453,7 @@ section{scroll-margin-top:84px}
 
     if(!FORM_ENDPOINT){
       // gentle fallback: open mailto so nothing is lost
-      var subject = encodeURIComponent('ANB Solutions — Working session request');
+      var subject = encodeURIComponent('ANB Solutions: Working session request');
       var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
       // open mailto in new tab (many browsers will open email client)
       window.location.href = 'mailto:abhishek@theanbgroup.com?subject=' + subject + '&body=' + body;
