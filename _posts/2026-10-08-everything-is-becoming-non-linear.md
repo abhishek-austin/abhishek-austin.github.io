@@ -2,12 +2,9 @@
 layout: post
 title: "Everything Is Becoming Non-Linear"
 subtitle: "When film editing stopped being physical, Hollywood reshuffled. The same thing is happening to every recording we used to sit through."
-date: 2026-10-06
+date: 2026-10-08
 tags: [AI, Strategy]
 image: /assets/images/reshuffle-cover.png
-permalink: /preview/everything-is-becoming-non-linear/
-noindex: true
-sitemap: false
 excerpt: "Non-linear editing made film cuts reversible and reshuffled Hollywood. Meetings, sales calls, and even codebases are going through the same shift, and it changes who wins."
 ---
 
