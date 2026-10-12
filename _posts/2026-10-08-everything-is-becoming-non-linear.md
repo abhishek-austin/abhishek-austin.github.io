@@ -32,7 +32,7 @@ In a software organization, this goes a level further. Fireflies makes the recor
 
 That changes what a technical meeting is. Instead of speculating about how something works and leaving with a long list of action items that never get followed up on, you validate findings in real time and use the system itself to explore options as you discuss them. "What would break if we changed this?" gets answered in the room.
 
-It changes project management too. Status used to move in a straight line: a developer finishes, checks in code, updates the ticket, and then demos the feature. Your project manager waited at the end of that line. Now they can get a real status update straight from the systems, in the meeting, without waiting on anyone.
+It changes project management too. Status used to move in a straight line: a developer finishes, checks in code, updates the ticket, and then demos the feature. Your project manager waited at the end of that line. Now they can get a real status update straight from the systems, in the meeting, without waiting on anyone. It also makes accountability faster. When anyone can check the work in the room, a vague update doesn't last long.
 
 And it changes who gets heard. A non-technical manager, an architect, or a developer can advocate for themselves by showing their artifacts in real time instead of describing them from memory. That's fluency beating muscle memory again. The edge goes to whoever can ask the system the right question in the moment.
 
