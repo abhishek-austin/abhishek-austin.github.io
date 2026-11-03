@@ -5,9 +5,6 @@ subtitle: "Years of email, calendar, and location history describe your routines
 date: 2026-11-03
 tags: [AI, Productivity]
 image: /assets/images/inbox-treasure-cover.png
-permalink: /preview/the-biggest-dataset-you-own-is-your-inbox/
-noindex: true
-sitemap: false
 excerpt: "Your inbox, calendar, and location history are the biggest unstructured dataset you own. Three small projects turn that history into memory files that make your next decision better."
 ---
 
