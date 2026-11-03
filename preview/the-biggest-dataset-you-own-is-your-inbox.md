@@ -15,9 +15,9 @@ excerpt: "Your inbox, calendar, and location history are the biggest unstructure
 
 The biggest unstructured dataset most of us can mine today is sitting in our inbox and our calendar.
 
-For years, search in both was limited. You could find an email if you remembered who sent it, or a meeting if you remembered roughly when it happened. Analysis was out of the question.
+For years, search in both was limited. Meanwhile, both kept piling up mounds of data describing our most core routines and preferences: where we go, who we meet, what we buy, and how we spend our time.
 
-Meanwhile, both kept piling up mounds of data describing our most core routines and preferences: where we go, who we meet, what we buy, and how we spend our time.
+Analyzing it was out of the question.
 
 Last year, tools like Superhuman started adding AI to the inbox to make that history searchable. As of this summer, the general assistants have caught up. ChatGPT, Grok, and Claude can connect to your email and calendar and work through thousands of messages, or years of other unstructured history, in minutes.
 
