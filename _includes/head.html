@@ -4,9 +4,9 @@
 
 {%- comment -%} Per-page title / description / share image, with sensible fallbacks. {%- endcomment -%}
 {%- if page.title -%}
-  {%- assign page_title = page.title | append: " — ANB Solutions" -%}
+  {%- assign page_title = page.title | append: " · ANB Solutions" -%}
 {%- else -%}
-  {%- assign page_title = "Writing — ANB Solutions" -%}
+  {%- assign page_title = "Writing · ANB Solutions" -%}
 {%- endif -%}
 {%- assign page_desc = page.excerpt | default: page.description | default: site.description | strip_html | normalize_whitespace | truncate: 200 -%}
 {%- assign page_image = page.image | default: "/images/abhishek.jpg" | absolute_url -%}
@@ -28,7 +28,7 @@
 
 <!-- Open Graph / LinkedIn card -->
 <meta property="og:site_name" content="ANB Solutions">
-<meta property="og:title" content="{{ page.title | default: 'Writing — ANB Solutions' }}">
+<meta property="og:title" content="{{ page.title | default: 'Writing · ANB Solutions' }}">
 <meta property="og:description" content="{{ page_desc }}">
 <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
 <meta property="og:url" content="{{ canonical }}">

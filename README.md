@@ -7,7 +7,7 @@ blog that GitHub Pages builds automatically.
 
 ## Publishing a blog post
 
-See **[PUBLISHING.md](PUBLISHING.md)** — a step-by-step, no-tooling guide for
+See **[PUBLISHING.md](PUBLISHING.md)**, a step-by-step, no-tooling guide for
 adding a weekly post through the GitHub web UI. Short version: add one Markdown
 file to `_posts/` and commit.
 

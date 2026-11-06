@@ -2,7 +2,7 @@
 
 This site has a **Writing** section at <https://abhishek-austin.github.io/blog/>.
 Each post is one text file. Publishing a post means adding one file and saving
-it — GitHub does the rest, and the post is live in a minute or two.
+it. GitHub does the rest, and the post is live in a minute or two.
 
 No software to install. Everything below is done in the browser on github.com.
 
@@ -13,7 +13,7 @@ No software to install. Everything below is done in the browser on github.com.
 1. Go to the **`_posts`** folder in the repository:
    <https://github.com/abhishek-austin/abhishek-austin.github.io/tree/main/_posts>
 2. Click **Add file → Create new file**.
-3. Name the file using this exact pattern — **date first, then a short title**,
+3. Name the file using this exact pattern, **date first, then a short title**,
    ending in `.md`:
 
    ```
@@ -84,7 +84,7 @@ is only if you want headings, bold, etc.
 
 ## Good to know
 
-- **Posts are sorted by date automatically** — newest first. You don't arrange anything.
+- **Posts are sorted by date automatically**, newest first. You don't arrange anything.
 - **To fix a typo:** open the post file in `_posts`, click the pencil (✏️) icon,
   edit, and commit. Changes go live in a minute or two.
 - **To unpublish a post:** open it, click the trash icon, and commit. (Or change

@@ -54,4 +54,4 @@ Measure more, learn faster, decide better. For the first time, a small business 
 
 Where have you seen a small business use AI to measure something that used to be invisible? I'd genuinely like to know. And if that business is yours and you want a hand putting it to work, my door is open.
 
-— Abhishek
+Abhishek
