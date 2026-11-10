@@ -35,9 +35,9 @@ This has happened before. When steam engines got more efficient in the 1800s, En
 
 ## If you're building in this space
 
-If a general-purpose agent can produce a professional edit from one sentence, every company whose product is "we edit your video" or "we tag your photos" has to think very clearly about its moat. The models get better and cheaper every month, and they're coming for every feature that can be described in a prompt.
+This is exciting for anyone building with video and images, and it raises a fair question. When a general-purpose agent can produce a good edit from one sentence, the value of a product shifts from the edit itself to everything around it.
 
-What lasts is what a prompt can't replace: proprietary data, a workflow your customers already live in, rights and licensing, trust, and taste. If you can't name your moat, the next model release will name it for you.
+That's where the opportunity is: proprietary data, a workflow your customers already rely on, rights and licensing, trust, and taste. Teams that invest there get more out of every model improvement, because each new release makes their product better too.
 
 ## What to do with this
 
