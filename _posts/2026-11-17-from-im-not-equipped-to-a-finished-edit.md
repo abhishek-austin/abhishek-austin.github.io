@@ -2,12 +2,9 @@
 layout: post
 title: "From \"I'm Not Equipped\" to a Finished Edit"
 subtitle: "Three years ago, an AI model wouldn't grade a dance photo. Now one edits 16 GB of competition video in under half an hour. The work got cheaper, and the to-do list got longer."
-date: 2026-11-10
+date: 2026-11-17
 tags: [AI, Video]
 image: /assets/images/finished-edit-cover.png
-permalink: /preview/from-im-not-equipped-to-a-finished-edit/
-noindex: true
-sitemap: false
 excerpt: "Three years ago, ChatGPT 4 wouldn't grade a ballroom photo. Now an agent edits 16 GB of competition video in under half an hour. When AI gets cheaper, we take on more."
 ---
 
