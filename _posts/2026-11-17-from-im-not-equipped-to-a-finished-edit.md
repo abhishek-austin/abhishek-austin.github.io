@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "From \"I'm Not Equipped\" to a Finished Edit"
-subtitle: "Three years ago, an AI model wouldn't grade a dance photo. Now one edits 16 GB of competition video in under half an hour. The work got cheaper, and the to-do list got longer."
+subtitle: "Three years ago, an AI model wouldn't grade a dance photo. Now one edits 16 GB of performance video in under half an hour. The work got cheaper, and the to-do list got longer."
 date: 2026-11-17
 tags: [AI, Video]
 image: /assets/images/finished-edit-cover.png
-excerpt: "Three years ago, ChatGPT 4 wouldn't grade a ballroom photo. Now an agent edits 16 GB of competition video in under half an hour. When AI gets cheaper, we take on more."
+excerpt: "Three years ago, ChatGPT 4 wouldn't grade a ballroom photo. Now an agent edits 16 GB of performance video in under half an hour. When AI gets cheaper, we take on more."
 ---
 
 ![From "I'm not equipped" to a finished edit](/assets/images/finished-edit-cover.png)
 
-Three years ago, I competed in a series of ballroom dance competitions (and won first in every category, which I will mention exactly once). My photographer sent some of his shots into ChatGPT 4 and asked it to grade the dance pose.
+Three years ago, I competed in a series of ballroom dance competitions (and won first in every category, which I will mention exactly once). As a fun experiment, my photographer sent some of his shots into ChatGPT 4 and asked it to grade the dance pose.
 
 ![On the competition floor](/assets/images/ballroom-competition.jpg)
 
@@ -18,13 +18,13 @@ It declined. "I'm not equipped to grade dance poses or provide technical critiqu
 
 <p style="text-align:center"><img src="/assets/images/chatgpt4-grade-the-pose.png" alt="ChatGPT 4 declining to grade a ballroom dance pose, then describing the photo" style="max-width:420px;width:100%"></p>
 
-Flash forward three years. I recently handed my video agent 16 GB of competition footage. In under half an hour, it picked the best moments, synced the audio to the video, and cut highlight videos from plain instructions like "find a clip with the orchestra playing and cut it before the singer says thanks at the end of the piece." The edits are good enough to post.
+Flash forward three years. I recently handed my video agent over 16 GB of complicated performance footage. In under half an hour, it picked the best moments, synced the audio to the video, and cut highlight videos from plain instructions like "find a clip with the orchestra playing and cut it before the singer says thanks at the end of the piece." The edits are good enough to post and share with other organizations.
 
-Performance highlights are only the start. Almost anything in the realm of video now seems possible: following a full competition round, breaking down technique move by move, and picking up the nuanced details in the background that a human editor would scroll right past.
+Performance highlights are only the start. Almost anything in the realm of video now seems possible: following a full competition round, breaking down technique move by move, and picking up the nuanced details in the background that a human editor would scroll right past. As an example, this is already taking over sports.
 
 ## The economics moved even faster
 
-That job used about 40% of my weekly token budget. Some may think that's high. For context, eight months ago, getting Notion AI to send out automated emails blew through my token limits. Today, the same kind of budget gets me a high-quality video edit with most of the week to spare.
+A few weeks ago, this job used about 40% of my weekly token budget. Some may think that's high. For context, eight months ago, getting Notion AI to send out automated emails blew through my token limits. And in just the past few weeks, that 40% has likely gone down to 25%. Today, the same kind of budget gets me a high-quality video edit with most of the week to spare.
 
 Every month, the unit economics of these agents and their token costs keep coming down, and the clearest sign is volume: at the same budget, the number of tasks you can get done is exploding.
 
@@ -39,7 +39,7 @@ That's where the opportunity is: proprietary data, a workflow your customers alr
 ## What to do with this
 
 - **Measure your AI spend in finished work, not tokens.** Track what your budget actually gets done each month. That number tells you more than any benchmark.
-- **Revisit what you shelved.** Projects that were too expensive six months ago may be cheap now. Check them again every quarter.
+- **Revisit what you shelved.** Projects that were too expensive three years ago, six months ago, or even two weeks ago may be cheap now. Check them again every quarter.
 - **Spend your own time on judgment.** When the edit is nearly free, the scarce part is knowing which moment is the highlight.
 
 ## The backlog never empties
